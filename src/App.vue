@@ -4,13 +4,15 @@ import Hero from "./components/Hero.vue";
 import Destinations from "./components/Destinations.vue";
 import Footer from "./components/Footer.vue";
 import destinations from "./data/destinations.js";
+import Benefits from "./components/Benefits.vue";
 </script>
 
 <template>
   <Navbar />
   <main>
     <Hero />
-    <destinations />
+    <Destinations />
+    <Benefits />
   </main>
   <Footer />
 </template>
