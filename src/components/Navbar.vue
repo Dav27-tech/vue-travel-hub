@@ -9,14 +9,14 @@ function SearchDestination() {
 </script>
 
 <template>
-  <nav class="navbar navbar-exapnd-lg navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
       <a href="#" class="navbar-brand fw-bold">
         <i class="bi bi-airplane-fill me-2"></i>
         TravelHub
       </a>
       <button
-        class="navbar-toogler"
+        class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbar"
